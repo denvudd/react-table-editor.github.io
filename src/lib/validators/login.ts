@@ -1,4 +1,4 @@
-import { ValidateErrors } from "@/constants/ValidateErrors";
+import { ValidateErrors } from "@/constants/validate-errors";
 import { z } from "zod";
 
 export const LoginValidator = z.object({
